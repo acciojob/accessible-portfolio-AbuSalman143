@@ -11,6 +11,46 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<header role="heading" aria-level="1"><h1>My Portfolio</h1></header>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h1 role="heading" aria-level="2">About Me</h1>
+      <img src="profile.jpg" alt="Profile Picture" role="img">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus lectus vel augue fringilla, a eleifend sapien congue.</p>
+    </section>
+
+    <section id="projects">
+      <h1 role="heading" aria-level="2">Projects</h1>
+      <ul role="list">
+        <li role="listitem">Project 1</li>
+        <li role="listitem">Project 2</li>
+        <li role="listitem">Project 3</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h1 role="heading" aria-level="2">Contact Me</h1>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" aria-label="Name" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" aria-label="Email" />
+
+        <button type="submit" aria-label="Submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
 </body>
 
 </html>
